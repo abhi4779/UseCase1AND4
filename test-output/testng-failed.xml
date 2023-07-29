@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test - Automation panda(failed)">
+    <parameter name="Url" value="https://automationpanda.com/2021/12/29/want-to-practice-test-automation-try-these-demo-sites/"/>
+    <classes>
+      <class name="com.qa.testscripts.AutomationPandaScenario">
+        <methods>
+          <include name="verifyhometitle"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifycontacttitle"/>
+          <include name="checkmessagesent"/>
+        </methods>
+      </class> <!-- com.qa.testscripts.AutomationPandaScenario -->
+    </classes>
+  </test> <!-- Test - Automation panda(failed) -->
+  <test thread-count="5" parallel="tests" name="Test - Flipkart(failed)">
+    <parameter name="Url" value="https://www.flipkart.com/"/>
+    <classes>
+      <class name="com.qa.testscripts.FlipkartScenario">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifylogo"/>
+          <include name="tearDown"/>
+          <include name="searchphone"/>
+        </methods>
+      </class> <!-- com.qa.testscripts.FlipkartScenario -->
+    </classes>
+  </test> <!-- Test - Flipkart(failed) -->
+</suite> <!-- Failed suite [Suite] -->

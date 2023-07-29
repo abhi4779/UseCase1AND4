@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="0" failed="0" skipped="5">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-04T23:48:09 IST" name="Suite" finished-at="2023-06-04T23:48:09 IST" duration-ms="30">
+    <groups>
+    </groups>
+    <test started-at="2023-06-04T23:48:09 IST" name="Test - Automation panda" finished-at="2023-06-04T23:48:09 IST" duration-ms="30">
+      <class name="com.qa.testscripts.AutomationPandaScenario">
+        <test-method signature="verifyhometitle()[pri:1, instance:com.qa.testscripts.AutomationPandaScenario@44821a96]" started-at="2023-06-04T23:48:09 IST" name="verifyhometitle" finished-at="2023-06-04T23:48:09 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyhometitle -->
+        <test-method signature="verifycontacttitle()[pri:2, instance:com.qa.testscripts.AutomationPandaScenario@44821a96]" started-at="2023-06-04T23:48:09 IST" name="verifycontacttitle" finished-at="2023-06-04T23:48:09 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycontacttitle -->
+        <test-method signature="checkmessagesent()[pri:3, instance:com.qa.testscripts.AutomationPandaScenario@44821a96]" started-at="2023-06-04T23:48:09 IST" name="checkmessagesent" finished-at="2023-06-04T23:48:09 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkmessagesent -->
+      </class> <!-- com.qa.testscripts.AutomationPandaScenario -->
+    </test> <!-- Test - Automation panda -->
+    <test started-at="2023-06-04T23:48:09 IST" name="Test - Flipkart" finished-at="2023-06-04T23:48:09 IST" duration-ms="30">
+      <class name="com.qa.testscripts.FlipkartScenario">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.testscripts.FlipkartScenario@2df9b86]" started-at="2023-06-04T23:48:09 IST" name="setUp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1685902689434" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'Url' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\ABHILASHKE\eclipse-workspace\UseCase1\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'Url' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\ABHILASHKE\eclipse-workspace\UseCase1\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:268)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:301)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifylogo()[pri:1, instance:com.qa.testscripts.FlipkartScenario@2df9b86]" started-at="2023-06-04T23:48:09 IST" name="verifylogo" finished-at="2023-06-04T23:48:09 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'Url' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\ABHILASHKE\eclipse-workspace\UseCase1\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'Url' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\ABHILASHKE\eclipse-workspace\UseCase1\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:268)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:301)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogo -->
+        <test-method signature="searchphone()[pri:2, instance:com.qa.testscripts.FlipkartScenario@2df9b86]" started-at="2023-06-04T23:48:09 IST" name="searchphone" finished-at="2023-06-04T23:48:09 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'Url' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\ABHILASHKE\eclipse-workspace\UseCase1\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'Url' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\ABHILASHKE\eclipse-workspace\UseCase1\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:268)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:301)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchphone -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testscripts.FlipkartScenario@2df9b86]" started-at="2023-06-04T23:48:09 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1685902689549" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testscripts.FlipkartScenario -->
+    </test> <!-- Test - Flipkart -->
+  </suite> <!-- Suite -->
+</testng-results>
